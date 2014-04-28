@@ -61,7 +61,7 @@ POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPLa
 anim.toValue = [NSValue valueWithCGRect:CGRectMake(0, 0, 400, 400)];
 [layer pop_addAnimation:anim forKey:@"size"];
 ```
-Decay animations can be used to gradually slow an object to a halt. In this example, we decay a layer's positionX from it's current value and vecocity 1000pts per second:
+Decay animations can be used to gradually slow an object to a halt. In this example, we decay a layer's positionX from it's current value and velocity 1000pts per second:
 
 ```objective-c
 POPDecayAnimation *anim = [POPDecayAnimation animationWithPropertyNamed:kPOPLayerPositionX];
